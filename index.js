@@ -101,7 +101,7 @@ function getMostCommonAnimal(animals) {
     return highAnimal;
   }  
   highAnimal = animals[0]; 
-  for(animal of animals) {
+  for(let animal of animals) {
     if(animal.count > highAnimal.count) {
       highAnimal = animal;
     } 
